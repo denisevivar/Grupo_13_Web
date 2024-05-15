@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/stylesperfil.css">
+        <link rel="stylesheet" href="/vistaSerieyPelicula.css">
+        <title>Beehive - Recuperar Contraseña</title>
+    </head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="./vistaPantallaPrincipal.html">Home</a></li>
+            <li><a href="./grillaSeries.html">Series</a></li>
+            <li><a href="./grillaPeliculas.html">Películas</a></li>
+            <li><a href="./perfil.html">Perfil</a></li>
+        </ul>
+    </nav>
+    <section class="flex-contenedor">
+        <div class="avatar">
+            <img class="imagenavatar" src="./imagenes/avatar3.png" alt="avatar">
+            <h2 class="username">Lathgertha Gunnar</h2>
+        </div>
+
+        <div class="flex-row">
+
+            <div class="flex-row-column1">
+                <div class="mail-column1">
+                    <span>Email</span>
+                    <span class="ltext1">l.gunnar@gmail.com</span>
+                </div>
+                <div class="contrasena-column1">
+                    <span>Contraseña</span>
+                    <span class="ltext2">******************</span>
+                </div>
+                <div class="text-column1">
+                    <label>Nueva contraseña<input class="input" type="text" placeholder="Ingrese nueva contraseña"/></label>
+                </div>
+                <div class="text-column1">
+                    <label>Repetir contraseña<input class="input" type="text" placeholder="Ingrese nueva contraseña"/></label>
+                </div>
+            </div>
+
+            <div class="flex-row-column2">
+                <span><h2>Método de pago</h2>
+                </span>
+                <span>
+                    <label><input type="radio" name="tipo"/>Tarjeta de crédito</label>
+                </span>
+                <span>
+                    <label class="l-row1">
+                        <input class="input" type="text" placeholder="Número de Tarjeta"/>
+                        <input class="input2" type="text" placeholder="XXX"/>
+                    </label>
+                </span>
+                <span>
+                    <label class="l-row1">
+                        <input type="radio" name="tipo"/>Cupón de pago
+                    </label>
+                </span>
+                <span>
+                    <label class="l-row2">
+                        <input type="radio" name="pago"/>Pago facil
+                        <input type="radio"name="pago" />RapiPago
+                    </label>
+                </span>
+                <span>
+                    <input type="radio" name="tipo"/>Transferencia bancaria                    
+                </span>
+                <span>
+                    <label class="l-row2">CBU: 5000000892425084653780
+                    </label>
+                </span>
+            </div>    
+        </div>
+
+        <div class="actionbutton">
+            <div class="buttonAcep">
+                <a class="textaction" href="./vistaPantallaPrincipal.html">Confirmar</a>
+            </div>
+            <div class="buttonCan">
+                <a class="textaction" href="./vistaPantallaPrincipal.html">Cancelar</a>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

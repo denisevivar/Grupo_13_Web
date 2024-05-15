@@ -1,0 +1,116 @@
+body {
+    background-image: url(imagenes/fondoRecuperaContra.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.imagenTitulo {
+    position: absolute;
+    width: 7%;
+    top:2%;
+    left: 2%;
+}
+
+.flex-contenedor {
+    width: 1400px;
+    height: 750px;
+    background-color: #f0ba09c9;
+    font-family: "Nunito", sans-serif;
+    border-radius: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    top: 100px;
+    font-size: 30px;
+}
+
+.titulo{
+    position: absolute;
+    top: 5%;
+    left: 11%;
+}
+
+.flex-row-column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 40%;
+    top: 22%;
+    left: 3%;
+}
+
+.flex-row-column1 span {
+    margin-bottom: 45px;
+    height: 30%;
+}
+
+input{
+    border-radius: 1%;
+    height: 30%;
+}
+
+.flex-row-column2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+    top: 14%;
+    left: 60%;
+}
+.flex-row-column2 span {
+    margin-bottom: 20px;
+}
+.flex-row-column2 h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+}
+.text-row{
+    margin-left:6%;
+}
+
+.actionbutton{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 90%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.buttonAcep {
+
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #1bbe1b;
+    position: absolute;
+    top: 70%;
+    left:62%;
+    text-decoration: none;
+}
+.buttonCan{
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #d35555;
+    position: absolute;
+    top: 70%;
+    left:72%;
+    
+}
+.textaction{
+    font-size: 25px;
+    text-decoration: none;
+    color:#000000ee;
+    }
+
+input[type="radio"]{
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    }

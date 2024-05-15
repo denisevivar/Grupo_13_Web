@@ -1,0 +1,74 @@
+body {
+    background-image: url(imagenes/fondoRecuperaContra.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.imagenTitulo {
+    position: absolute;
+    width: 7%;
+    top:2%;
+    left: 2%;
+}
+
+.flex-contenedor {
+    width: 500px;
+    height: 300px;
+    background-color: #f0ba09c9;
+    font-family: "Nunito", sans-serif;
+    border-radius: 3% 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    font-size: 25px;
+}
+
+.text{
+    text-align: center;
+}
+.linea2{
+    margin-left: 38.5%;
+}
+.linea3{
+    margin-left: 10%;
+}
+
+.textaction{
+text-decoration: none;
+color:#000000ee;
+}
+
+.actionbutton{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 90%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.button1{
+
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #1bbe1b;
+    position: absolute;
+    align-items: center;
+    top: 70%;
+    left:20%;
+}
+.button2{
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #d35555;
+    position: absolute;
+    align-items: center;
+    top: 70%;
+    left:55%;
+}

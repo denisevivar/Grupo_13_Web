@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+.flex-contenedor {
+    width: 90%;
+    height: 900px;
+    background-color: #faebd7;
+    border-radius: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    
+}
+
+.imagenavatar{
+    width: 10%;
+    border-radius:50%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+.flex-contenedor .username{
+    position: relative;
+    margin-left: 4%;
+    font-size: 35px;
+}
+
+.flex-row-column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    width: 40%;
+    top: 18%;
+    left: 16%;
+}
+.flex-row-column1 div {
+    margin-bottom: 50px;
+    height: 30%;
+}
+
+.flex-row-column2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+    top: 18%;
+    left: 65%;
+}
+
+.flex-row-column2 span {
+    margin-bottom: 30px;
+}
+
+
+.ltext1{
+    margin-left: 42px;
+}
+.ltext2{
+    margin-left: 105px;
+}
+.input{
+    margin-left: 70px;
+    width: 250px;
+    height: 30px;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2% 2% 2% 2%;
+}
+.input2{
+    margin-left: 20px;
+    width: 70px;
+    height: 30px;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2% 2% 2% 2%;
+}
+.l-row2{
+    margin-left: 30px;
+}
+
+.actionbutton{
+    font-style: normal;
+    font-size: 90%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+
+}
+.buttonAcep {
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #1bbe1b;
+    position: absolute;
+    top: 78%;
+    left:25%;
+    text-decoration: none;
+    width: 20%;
+    text-align: center; 
+}
+.buttonCan{
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000ee;
+    padding: 1%;
+    background-color: #d35555;
+    position: absolute;
+    top: 78%;
+    left:55%;
+    width: 20%;
+    text-align: center;
+}
+.textaction{
+    font-size: 25px;
+    text-decoration: none;
+    color:#000000ee;
+    }
+
+input[type="radio"]{
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    }
